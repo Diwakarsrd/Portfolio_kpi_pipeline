@@ -1,0 +1,30 @@
+{
+  "company": "bharat_foods",
+  "labels": {
+    "Cash and Bank": {
+      "kpi": "cash",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "EBITDA": {
+      "kpi": "ebitda",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Employees": {
+      "kpi": "headcount",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Gross Margin (%)": {
+      "kpi": "gross_margin_pct",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Revenue from Operations": {
+      "kpi": "revenue",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    }
+  }
+}

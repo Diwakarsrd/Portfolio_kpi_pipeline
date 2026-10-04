@@ -1,0 +1,10 @@
+# Seed vocabulary for the matcher. Extend it when a human confirms a new label.
+revenue: [revenue, net sales, sales, turnover, total revenue, revenue from operations, net revenue]
+cogs: [cogs, cost of sales, cost of goods sold, direct costs, cost of revenue, cost of materials]
+gross_profit: [gross profit, gross income]
+gross_margin_pct: [gross margin, gross margin %, gross profit margin]
+ebitda: [ebitda, operating profit, operating profit (ebitda), operating income]
+cash: [cash, cash balance, cash and bank, cash and equivalents, cash and cash equivalents, closing cash]
+headcount: [headcount, employees, fte, ftes, no. of employees, number of employees, staff count]
+arr: [arr, annual recurring revenue]
+churn_pct: [churn, churn %, monthly churn, monthly churn %, customer churn, customer churn %]

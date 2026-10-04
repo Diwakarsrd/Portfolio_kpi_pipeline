@@ -1,0 +1,45 @@
+{
+  "company": "pune_health",
+  "labels": {
+    "Annual Recurring Revenue": {
+      "kpi": "arr",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Cash": {
+      "kpi": "cash",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Customer Churn %": {
+      "kpi": "churn_pct",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "EBITDA": {
+      "kpi": "ebitda",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Gross Margin %": {
+      "kpi": "gross_margin_pct",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Headcount": {
+      "kpi": "headcount",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Logo Churn": {
+      "kpi": "churn_pct",
+      "source": "human",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Revenue": {
+      "kpi": "revenue",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    }
+  }
+}

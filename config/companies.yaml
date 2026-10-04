@@ -1,0 +1,7 @@
+# Per-company facts that cannot be read from the files themselves.
+# fiscal_year_end_month: 12 = calendar year. FY26 with year-end March = Apr-2025 .. Mar-2026.
+nimbus_cloud:   {fiscal_year_end_month: 12}
+gulf_logistics: {fiscal_year_end_month: 12}
+bharat_foods:   {fiscal_year_end_month: 12}
+desert_solar:   {fiscal_year_end_month: 3}
+pune_health:    {fiscal_year_end_month: 12}

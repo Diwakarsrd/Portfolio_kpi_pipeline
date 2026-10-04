@@ -1,0 +1,45 @@
+{
+  "company": "nimbus_cloud",
+  "labels": {
+    "ARR": {
+      "kpi": "arr",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Cash & Equivalents": {
+      "kpi": "cash",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Cost of Sales": {
+      "kpi": "cogs",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "EBITDA": {
+      "kpi": "ebitda",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "FTEs": {
+      "kpi": "headcount",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Gross Profit": {
+      "kpi": "gross_profit",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Monthly Churn %": {
+      "kpi": "churn_pct",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Net Sales": {
+      "kpi": "revenue",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    }
+  }
+}

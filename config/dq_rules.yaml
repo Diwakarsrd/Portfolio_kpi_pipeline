@@ -1,0 +1,38 @@
+# Data-quality rules. Edit thresholds freely; no code changes needed.
+#   severity: fail = blocks the LP report until fixed or corrected | warn = shown in the report, does not block
+#   kpis must be one of: revenue, cogs, gross_profit, gross_margin_pct, ebitda, cash, headcount, arr, churn_pct
+#   message placeholders: {company} {month} {kpi} {value} {detail}
+rules:
+  - {id: core_kpis_present,   type: not_null,   severity: fail, kpis: [revenue, ebitda, cash, headcount],
+     message: "{kpi} is missing for {company} in {month}"}
+
+  - {id: revenue_positive,    type: range, severity: fail, kpi: revenue,          min: 0,
+     message: "Revenue must be positive (got {value:,.0f})"}
+  - {id: gross_margin_range,  type: range, severity: fail, kpi: gross_margin_pct, min: 0, max: 100,
+     message: "Gross margin must be between 0% and 100% (got {value:.1f}%)"}
+  - {id: churn_plausible,     type: range, severity: fail, kpi: churn_pct,        min: 0, max: 15,
+     message: "Monthly churn of {value:.1f}% is implausible (limit 15%)"}
+  - {id: headcount_plausible, type: range, severity: fail, kpi: headcount,        min: 1, max: 50000,
+     message: "Headcount {value:,.0f} is outside the plausible range"}
+  - {id: cash_not_negative,   type: range, severity: warn, kpi: cash,             min: 0,
+     message: "Negative cash balance ({value:,.0f})"}
+
+  - {id: ebitda_not_above_revenue, type: lte, severity: fail, left: ebitda, right: revenue,
+     message: "EBITDA ({detail}) cannot exceed revenue"}
+  - {id: gross_profit_not_above_revenue, type: lte, severity: fail, left: gross_profit, right: revenue,
+     message: "Gross profit ({detail}) cannot exceed revenue"}
+  - {id: ebitda_margin_plausible, type: ratio_range, severity: warn, numerator: ebitda, denominator: revenue, min: -0.5, max: 0.6,
+     message: "EBITDA margin of {value:.0%} is unusual"}
+
+  - {id: gross_profit_ties, type: sum_ties, severity: fail, a: revenue, minus: cogs, equals: gross_profit, tolerance_pct: 1.0,
+     message: "Revenue - COGS does not tie to gross profit ({detail})"}
+
+  - {id: revenue_mom,   type: mom_change, severity: warn, kpis: [revenue, arr], max_abs_pct: 35,
+     message: "{kpi} moved {value:+.0f}% month-on-month"}
+  - {id: cash_mom,      type: mom_change, severity: warn, kpis: [cash], max_abs_pct: 60,
+     message: "Cash moved {value:+.0f}% month-on-month"}
+  - {id: headcount_mom, type: mom_change, severity: warn, kpis: [headcount], max_abs_pct: 25,
+     message: "Headcount moved {value:+.0f}% month-on-month"}
+
+  - {id: period_matches_filename, type: period_match, severity: fail,
+     message: "Period inside the file ({detail}) does not match its file name"}

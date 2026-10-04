@@ -1,0 +1,6 @@
+# Fixed FX table: 1 unit of currency -> USD. Fixed on purpose so runs are reproducible.
+as_of: "2026-01-01"
+rates_to_usd:
+  USD: 1.0
+  AED: 0.2723
+  INR: 0.0120

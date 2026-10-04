@@ -1,0 +1,35 @@
+{
+  "company": "gulf_logistics",
+  "labels": {
+    "Cash Balance": {
+      "kpi": "cash",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Cost of Goods Sold": {
+      "kpi": "cogs",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Gross Profit": {
+      "kpi": "gross_profit",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Headcount": {
+      "kpi": "headcount",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Operating Profit": {
+      "kpi": "ebitda",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    },
+    "Turnover": {
+      "kpi": "revenue",
+      "source": "auto-confirmed",
+      "confirmed_at": "2026-10-03T18:01:05+00:00"
+    }
+  }
+}
