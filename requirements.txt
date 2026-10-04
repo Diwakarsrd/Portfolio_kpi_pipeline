@@ -1,0 +1,10 @@
+pandas
+pydantic>=2
+rapidfuzz
+pyyaml
+openpyxl
+pdfplumber
+reportlab
+matplotlib
+streamlit
+pytest

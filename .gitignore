@@ -1,0 +1,5 @@
+__pycache__/
+.pytest_cache/
+data/pending_mappings.json
+data/manual_timing.json
+*.pyc
