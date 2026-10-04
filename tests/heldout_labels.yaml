@@ -1,0 +1,24 @@
+# Labels NOT in config/synonyms.yaml. expect=null means "must never be auto-mapped" (not a canonical KPI).
+- {label: "Sales Revenue", expect: revenue}
+- {label: "Total Net Turnover", expect: revenue}
+- {label: "Revenue (Net of Discounts)", expect: revenue}
+- {label: "Cost of Revenue (COGS)", expect: cogs}
+- {label: "Gross Margin Percentage", expect: gross_margin_pct}
+- {label: "Gross Profit Margin %", expect: gross_margin_pct}
+- {label: "Gross Profit (AED m)", expect: gross_profit}
+- {label: "EBITDA (Adjusted)", expect: ebitda}
+- {label: "Operating Profit before D&A", expect: ebitda}
+- {label: "Closing Cash Position", expect: cash}
+- {label: "Cash at Bank", expect: cash}
+- {label: "Total Headcount (EoP)", expect: headcount}
+- {label: "Staff Numbers", expect: headcount}
+- {label: "Annualised Recurring Revenue", expect: arr}
+- {label: "Recurring Revenue (ARR)", expect: arr}
+- {label: "Logo Churn", expect: churn_pct}
+- {label: "Revenue Churn %", expect: churn_pct}
+- {label: "Net Income", expect: null}
+- {label: "Operating Expenses", expect: null}
+- {label: "Capex", expect: null}
+- {label: "Number of Customers", expect: null}
+- {label: "Net Profit Margin %", expect: null}
+- {label: "Interest Expense", expect: null}

@@ -1,0 +1,62 @@
+{
+  "files": 30,
+  "cells": 222,
+  "mapping": {
+    "heldout_n": 23,
+    "heldout_auto": 1,
+    "heldout_wrong_auto": 0,
+    "heldout_top3": "17/17",
+    "shipped_labels": 33,
+    "shipped_correct": 33
+  },
+  "drift": {
+    "expected_reorders": 13,
+    "detected_correct": 13,
+    "false_alarms": 0,
+    "renames_detected": 1
+  },
+  "normalization": {
+    "facts": 192,
+    "raw_deviating_from_truth": 5,
+    "corrected_deviating_from_truth": 0
+  },
+  "dq": {
+    "planted": 5,
+    "caught_as_fail": 5,
+    "violations": 7,
+    "false_positive_company_months": 0,
+    "clean_after_corrections": 0
+  },
+  "reconcile": {
+    "checks": 6,
+    "passed": 6,
+    "items": 435
+  },
+  "blocking": {
+    "raw_status": "BLOCKED_DQ",
+    "final_status": "FINAL",
+    "churn_raw": "20.3%",
+    "churn_final": "1.7%"
+  },
+  "checker": {
+    "template_figures": 17,
+    "template_unmatched": 0,
+    "correct_accepted": "40/40",
+    "perturbed_wrongly_accepted": "20/160",
+    "label_swap_wrongly_accepted": "70/70",
+    "placeholder_mode_literals_rejected": "80/80"
+  },
+  "timing": {
+    "ingest": 0.59,
+    "mapping": 0.202,
+    "normalize": 0.032,
+    "drift": 0.056,
+    "quality": 0.079,
+    "reconcile": 0.191,
+    "metrics": 0.159,
+    "commentary": 0.001,
+    "pdf": 0.921,
+    "total": 2.923,
+    "max_total": 3.07
+  }
+}

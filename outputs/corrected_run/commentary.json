@@ -1,0 +1,79 @@
+{
+  "text": "- Across 5 portfolio companies, fund revenue for 2026-06 was $4.6M, +0.8% versus the prior month.\n- Fund EBITDA was $429K, a margin of 9.4%, and gross margin was 39.5%.\n- Cash stood at $15.9M (+1.9% versus the prior month) and headcount at 426.\n- 4 companies grew revenue month-on-month and 1 declined; Gulf Logistics was the largest contributor at 46.7% of fund revenue.\n- SaaS holdings reported ARR of $10.1M (-0.4% month-on-month) with ARR-weighted churn of 1.7%.\n- Over the 6-month window, revenue totalled $25.9M.",
+  "source": "template",
+  "check": {
+    "ok": true,
+    "verified": [
+      {
+        "token": "5",
+        "metric_id": "n_companies"
+      },
+      {
+        "token": "$4.6M",
+        "metric_id": "fund.revenue.2026-06"
+      },
+      {
+        "token": "+0.8%",
+        "metric_id": "fund.revenue.mom"
+      },
+      {
+        "token": "$429K",
+        "metric_id": "fund.ebitda.2026-06"
+      },
+      {
+        "token": "9.4%",
+        "metric_id": "fund.ebitda_margin_pct.2026-06"
+      },
+      {
+        "token": "39.5%",
+        "metric_id": "fund.gross_margin_pct.2026-06"
+      },
+      {
+        "token": "$15.9M",
+        "metric_id": "fund.cash.2026-06"
+      },
+      {
+        "token": "+1.9%",
+        "metric_id": "fund.cash.mom"
+      },
+      {
+        "token": "426",
+        "metric_id": "fund.headcount.2026-06"
+      },
+      {
+        "token": "4",
+        "metric_id": "n_rev_up"
+      },
+      {
+        "token": "1",
+        "metric_id": "n_rev_down"
+      },
+      {
+        "token": "46.7%",
+        "metric_id": "co.gulf_logistics.revenue_share"
+      },
+      {
+        "token": "$10.1M",
+        "metric_id": "fund.arr.2026-06"
+      },
+      {
+        "token": "-0.4%",
+        "metric_id": "fund.arr.mom"
+      },
+      {
+        "token": "1.7%",
+        "metric_id": "fund.churn_pct.2026-06"
+      },
+      {
+        "token": "6",
+        "metric_id": "n_months"
+      },
+      {
+        "token": "$25.9M",
+        "metric_id": "fund.revenue.window"
+      }
+    ],
+    "unmatched": []
+  },
+  "attempts": []
+}

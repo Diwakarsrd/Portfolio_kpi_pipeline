@@ -1,0 +1,28 @@
+{
+  "status": "FINAL",
+  "llm_enabled": false,
+  "timings_s": {
+    "ingest": 0.69,
+    "mapping": 0.196,
+    "normalize": 0.044,
+    "drift": 0.073,
+    "quality": 0.075,
+    "reconcile": 0.199,
+    "metrics": 0.171,
+    "commentary": 0.002,
+    "pdf": 1.944,
+    "total": 4.23
+  },
+  "commentary_source": "template",
+  "figures_verified": 17,
+  "month": "2026-06",
+  "prev": "2026-05",
+  "n_files": 30,
+  "n_cells": 222,
+  "n_facts": 192,
+  "dq_fail": 0,
+  "dq_warn": 0,
+  "corrections": 5,
+  "drift_events": 14,
+  "reconciliation_passed": true
+}

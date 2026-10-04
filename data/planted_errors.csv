@@ -1,0 +1,6 @@
+company,month,kpi,kind,note
+gulf_logistics,2026-04,revenue,x10,10x typo on revenue
+nimbus_cloud,2026-03,gross_profit,tie_break,gross profit does not equal revenue - COGS
+bharat_foods,2026-05,ebitda,gt_revenue,EBITDA reported above revenue
+pune_health,2026-06,churn_pct,set:45.0,implausible churn of 45%
+desert_solar,2026-02,cash,null,cash left blank

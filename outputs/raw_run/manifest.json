@@ -1,0 +1,24 @@
+{
+  "status": "BLOCKED_DQ",
+  "llm_enabled": false,
+  "timings_s": {
+    "ingest": 0.634,
+    "mapping": 0.22,
+    "normalize": 0.025,
+    "drift": 0.058,
+    "quality": 0.079,
+    "reconcile": 0.212,
+    "metrics": 0.214,
+    "total": 2.485
+  },
+  "month": "2026-06",
+  "prev": "2026-05",
+  "n_files": 30,
+  "n_cells": 222,
+  "n_facts": 192,
+  "dq_fail": 5,
+  "dq_warn": 2,
+  "corrections": 0,
+  "drift_events": 14,
+  "reconciliation_passed": true
+}

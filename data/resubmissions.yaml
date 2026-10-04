@@ -1,0 +1,30 @@
+- company: gulf_logistics
+  month: 2026-04
+  kpi: revenue
+  corrected_value: 7.45
+  reason: Company confirmed and resubmitted the figure (synthetic scenario)
+  approved_by: analyst (synthetic)
+- company: nimbus_cloud
+  month: 2026-03
+  kpi: gross_profit
+  corrected_value: 252.85
+  reason: Company confirmed and resubmitted the figure (synthetic scenario)
+  approved_by: analyst (synthetic)
+- company: bharat_foods
+  month: 2026-05
+  kpi: ebitda
+  corrected_value: 31.35
+  reason: Company confirmed and resubmitted the figure (synthetic scenario)
+  approved_by: analyst (synthetic)
+- company: pune_health
+  month: 2026-06
+  kpi: churn_pct
+  corrected_value: 1.23
+  reason: Company confirmed and resubmitted the figure (synthetic scenario)
+  approved_by: analyst (synthetic)
+- company: desert_solar
+  month: 2026-02
+  kpi: cash
+  corrected_value: 11767.42
+  reason: Company confirmed and resubmitted the figure (synthetic scenario)
+  approved_by: analyst (synthetic)
